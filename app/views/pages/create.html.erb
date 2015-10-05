@@ -1,0 +1,17 @@
+<div id="contact_form_area">
+	<br/>
+	<h3 class="line_height_home">Dmitriy Kanunnikov</h3>
+	<p>Tel: +48 515 560 359</p>
+	<p>Email: dmitriy.kanunnikov@gmail.com</p>
+	<br/>
+	<div id="form_itself">
+    		<br/>
+		<% flash.each do |key, value| %><br/><br/>
+			<h3 class="line_height_home" align="center" style="line-height:150%"><%= value %></h3><br/><br/><br/><br/><br/>
+		<% end %>
+			<p class="line_height_home" align="right"> Pozdrawiam i życzę miłego dnia, </p>
+			<p id="sign" align="right"> Dmitriy Kanunnikov </p><br/>
+  	</div>
+
+</div>
+<%= image_tag("dmitriy.jpg", :alt => "DMITRIY KANUNNIKOV", :id => "kontakt_photo") %>

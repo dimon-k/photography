@@ -1,0 +1,231 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body {
+ 	background-color: #1E1E1E;
+ 	font-family: 'Alegreya Sans SC', sans-serif;
+ 	font-weight: 300;
+ 	color: #E6E6E6;
+ }
+
+.line_height_home {
+	line-height: 12px;
+}
+
+#sign {
+	font-family: 'La Belle Aurore', cursive !important;
+	font-size: 28px;
+	line-height: 5px;
+}
+
+.references_divider {
+	background-image: image-url(references/dot.png);
+	background-image: url(references/dot.png);
+	background-repeat: repeat-x;
+	height: 1px;
+}
+
+.references_table {
+	margin: 15px 5px 15px 5px;
+}
+
+.td_1 {
+	padding-right: 10px;
+	text-align: justify;
+}
+
+.references_images {
+	float: right;
+}
+
+#menu_nav {
+	background-color: #0A0A0A;
+	width: 280px;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	padding: 30px 0 0 0;
+	z-index: 1000;
+}
+
+#menu_nav li {
+	list-style-type: none;
+	padding: 20px 60px 20px 0;
+	font-weight: 400 !important;
+	font-size: 17px;
+	line-height: 117%;
+	position: absolute;
+	z-index: 1001;
+}
+
+ #menu_li_1 {
+	top: 167px;
+	right: 0px;
+ }
+
+ #menu_li_2 {
+	top: 227px;
+	right: 0px;
+ }
+
+ #menu_li_3 {
+	top: 287px;
+	right: 0px;
+ }
+
+ #menu_li_4 {
+	top: 347px;
+	right: 0px;
+ }
+
+ #menu_li_5 {
+	top: 407px;
+	right: 0px;
+ }
+
+.menu_hover {
+	position: absolute;
+	width: 200px;
+	height: 51px;
+	z-index: 1002;
+}
+
+#menu_hover_1 {
+	top: 171px;
+	left: 45px;
+}
+
+#menu_hover_2 {
+	top: 231px;
+	left: 45px;
+}
+
+#menu_hover_3 {
+	top: 291px;
+	left: 45px;
+}
+
+#menu_hover_4 {
+	top: 351px;
+	left: 45px;
+}
+
+#menu_hover_5 {
+	top: 411px;
+	left: 45px;
+}
+
+#menu_nav ul {
+	padding: 50px 0 0 0;
+}
+
+#logo {
+	margin-left: 20px;
+}
+
+#frame_content {
+	position: absolute;
+	left: 290px;
+	width: 850px;
+	height: 640px;
+}
+
+#content {
+	position: relative;
+	left: 320px;
+	top: 40px;
+	width: 770px;
+	height: 515px;
+}
+
+#tabela_oferta {
+	margin: auto;
+}
+
+
+#before_after{
+	padding: 0 2px 0 2px;
+}
+
+#kontakt_photo {
+	float: right;
+}
+
+#contact_form_area {
+	float: left;
+	width: 361px;
+	height: 515px;
+	padding-top: 7px;
+}
+
+#form_itself {
+	padding-top: 6px;
+}
+
+.contact_field {
+	width: 340px;
+	line-height: 170%;
+	border: none;
+	background-color: #E6E6E6;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #0A0A0A;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#contact_area {
+	height: 189px;
+	resize: none;
+	font-weight: 400;
+	line-height: 120% !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+form input[type=submit] {
+	border: none;
+	width: 120px;
+	height: 29px;
+	float: right;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 15px;
+	background-color: #0A0A0A;
+	color: #E6E6E6;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+footer {
+	text-align: right;
+	font-size: 14px;
+	line-height: 30px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 1140px;
+	height: 60px;
+	background-color: #0A0A0A;
+	z-index: 999;
+}
+
+footer p {
+	padding-right: 20px;
+}

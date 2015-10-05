@@ -1,0 +1,23 @@
+<div id="contact_form_area">
+	<br/>
+	<h3 class="line_height_home">Dmitriy Kanunnikov</h3>
+	<p>Tel: +48 515 560 359</p>
+	<p>Email: dmitriy.kanunnikov@gmail.com</p>
+	<br/>
+	<div id="form_itself">
+      <%= form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+        <%= f.text_field :name, :required => true, :class => "contact_field", :placeholder => "Imię i nazwisko" %><br/><br/>
+        <%= f.text_field :email, :required => true, :class => "contact_field", :placeholder => "Email" %><br/><br/>
+        <%= f.text_area :message, :as => :text, :required => true, :class => "contact_field", :id => "contact_area", :placeholder => "Wiadomość" %><br/>
+        <div class= "hidden">
+            <%= f.text_field :nickname %><br/>
+        </div>
+      <div>
+        </br>
+          <%= f.submit 'WYŚLIJ', :class=> "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+
+</div>
+<%= image_tag("dmitriy.jpg", :alt => "DMITRIY KANUNNIKOV", :id => "kontakt_photo") %>
